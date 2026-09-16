@@ -12,5 +12,5 @@ def generate_log(data):
         for entry in data:
             file.write(f"{entry}\n")
 
-    print(f"Confirmation: Log written to {filename}")
+    print(f"Log written to {filename}")
     return filename
